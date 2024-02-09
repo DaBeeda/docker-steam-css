@@ -1,10 +1,13 @@
 cs_italy
 cs_office
 cs_assault
-cs_militia
-cs_havana
-cs_compound
 de_dust
 de_dust2
 de_nuke
 de_inferno
+de_aztec
+de_cbble
+de_piranesi
+de_train
+de_tides
+de_port

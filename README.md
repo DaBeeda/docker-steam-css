@@ -8,11 +8,12 @@ This docker image provides a preconfigured Counter-Strike Source server with sev
 The Docker image in the Docker Hub can be found [here](https://hub.docker.com/r/foxylion/steam-css/).
 
 List of used plugins:
-- [metamod:source v1.10.6](http://www.metamodsource.net/downloads/)
-- [SourceMod v1.7.3-5275](http://www.sourcemod.net/downloads.php?branch=stable)
+- [metamod:source v1.11.0-1153](http://www.metamodsource.net/downloads/)
+- [SourceMod v1.11.0-6954](http://www.sourcemod.net/downloads.php?branch=stable)
 - [Quake Sounds v1.8](https://forums.alliedmods.net/showthread.php?t=58548)
 - [Damage Report/Stats v1.1.13](https://forums.alliedmods.net/showthread.php?t=64661)
 - [MapChooser Extended 1.10.2](https://forums.alliedmods.net/showthread.php?t=156974)
+- [mp_halftime v2.0.0](https://forums.alliedmods.net/showthread.php?p=2148320)
 
 ## Start the container
 
@@ -23,7 +24,7 @@ docker run -d --name css-server-27015 \
            -p 27015:27015 -p 27015:27015/udp -p 1200:1200 \
            -p 27005:27005/udp -p 27020:27020/udp -p 26901:26901/udp \
            -e RCON_PASSWORD=mypassword \
-           foxylion/steam-css
+           pliebermann/counterstrike-source
 ```
 
 ## Restart the container

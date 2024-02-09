@@ -1,6 +1,6 @@
 
 build:
-	docker build -t foxylion/steam-css .
+	docker build -t pliebermann/counterstrike-source .
 
 run:
 	docker run -d -p 27015:27015 \
@@ -10,4 +10,4 @@ run:
 	              -p 27020:27020/udp \
 	              -p 26901:26901/udp \
 	              --name css-server-27015 \
-	              foxylion/steam-css
+	              pliebermann/counterstrike-source
